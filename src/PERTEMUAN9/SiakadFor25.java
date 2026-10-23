@@ -1,6 +1,6 @@
 /*jumlah mahasiswa (batas perulangan for) = 8 + (25 % 5) = 8
 batas kelulusan = 55 + (25 % 11) = 58 */
-package pertemuan9;
+package PERTEMUAN69;
 import java.util.Scanner;
 public class SiakadFor25 {
 public static void main(String[] args) {
