@@ -6,9 +6,9 @@ public class latihan1 {
         String jenis_Kendaraan;
         int tarif_Kendaraan, usia;
         double diskon, total_Bayar;
-        System.out.println("Masukkan jenis kendaraan");
+        System.out.print("Masukkan jenis kendaraan :");
         jenis_Kendaraan = sc.nextLine();
-        System.out.println("Masukkan usia");
+        System.out.print("Masukkan usia :");
         usia= sc.nextInt();
         switch (jenis_Kendaraan){
             case ("bus"):
@@ -17,7 +17,7 @@ public class latihan1 {
                 if (usia<12) {
                     System.out.println("Penumpang anak-anak");
                     diskon = 0.3;
-                } else if (usia>12 && usia < 59) {
+                } else if (usia>=12 && usia < 59) {
                     System.out.println("Penumpang dewasa");
                     diskon = 0;
                 }else {
