@@ -1,8 +1,8 @@
 package PERTEMUAN2;
 import java.util.Scanner;
 public class studikasus2_25 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
 int lebarTanah, panjangTanah, diameterKolam, panjangSisiTaman, luasTanahAwal, luasPanjangTaman;
 double luasTanahSisa, luasKolam, pi = 3.14, jariJari;
 System.out.println("Masukkan lebar tanah");
