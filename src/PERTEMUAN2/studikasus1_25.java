@@ -2,7 +2,7 @@ package PERTEMUAN2;
 import java.util.Scanner;
 public class studikasus1_25 {
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
+    Scanner sc =new Scanner(System.in);
     int gajipokok, tunjangananak, jumlahanak, totaltunjangananak;
     double totalgaji = 0, danapensiun = 0.1, totaldanapenisun;
     System.out.println("Masukkan nilai gaji pokok");
