@@ -9,7 +9,7 @@ int kopi, teh, roti;
 String namaPelanggan;
 int totalharga, hargakopi = 12000, hargateh = 7000, hargaroti = 20000;
 do { 
-    System.out.println("Masukkan nama pelangga (ketik 'batal' untuk keluar): ");
+    System.out.println("Masukkan nama pelanggan (ketik 'batal' untuk keluar): ");
     namaPelanggan = sc.nextLine();
     if (namaPelanggan.equalsIgnoreCase("batal")) {
         System.out.println("Transaksi dibatalkan");
@@ -27,4 +27,5 @@ do {
 } while (true);
 System.out.println("Semua transaksi selesai.");
 }
+
 }
