@@ -39,7 +39,6 @@ jumlah buku = 3 + (25%2) = 4
             }
             System.out.println("diskon" +diskon * 100 +"%");
         } 
-         
     } 
 }
 
