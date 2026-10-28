@@ -10,5 +10,6 @@ public class tugas1P3 {
         bulan = sc.nextInt();
         jumlahcicilan = (harga-uangmuka)/bulan + (harga-uangmuka)*0.02;
         System.out.println("jumlah cicilan "+jumlahcicilan);
+    
     }
 }
