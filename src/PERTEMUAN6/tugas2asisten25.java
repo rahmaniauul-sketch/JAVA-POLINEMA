@@ -24,12 +24,7 @@ if (mahasiswaAktif && sanksiAkademik) {
         System.out.println("Lolos wawancara");
 }else{
     System.out.println("Tidak lolos");
+}    
 }
-
-    
 }
-
-
-
-    }
 }
