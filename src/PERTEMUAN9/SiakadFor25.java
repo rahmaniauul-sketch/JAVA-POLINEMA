@@ -21,6 +21,7 @@ for (int i= 1; i <= 8; i++) {
     }else{
         tidaklulus = tidaklulus + 1;
     }
+    
 }
 System.out.println("Nilai tertinggi: " + tertinggi);
 System.out.println("Nilai terendah: " + terendah);
