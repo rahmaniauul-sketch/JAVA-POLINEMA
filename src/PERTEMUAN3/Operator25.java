@@ -14,9 +14,5 @@ public class Operator25 {
         z %= 2;
         System.out.println("Hasil akhir " +z);
 
-
-
-
-
     }
 }
