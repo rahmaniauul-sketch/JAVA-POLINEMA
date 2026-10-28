@@ -16,6 +16,7 @@ public class Tugas1Pemilihan25 {
         }else {
             System.out.println("Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu");
 
+            
         }
     }
 }
