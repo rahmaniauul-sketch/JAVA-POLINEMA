@@ -7,3 +7,4 @@ System.out.println("Belajar java itu mudah!");
 System.out.println("Semakin sering mencoba, semakin jago.");
 }
 }
+
