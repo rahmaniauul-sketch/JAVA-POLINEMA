@@ -18,5 +18,6 @@ public class OperatorLogikaWifiNoPresensi {
     } else {
         System.err.println("Akses Wifi ditolak");
     }
+    
    }
 }
