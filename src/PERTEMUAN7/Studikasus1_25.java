@@ -1,5 +1,4 @@
 package PERTEMUAN7;
-
 import java.util.Scanner;
 public class Studikasus1_25 {
 public static void main(String[] args) {
@@ -31,3 +30,4 @@ public static void main(String[] args) {
         }
     }
 }
+
