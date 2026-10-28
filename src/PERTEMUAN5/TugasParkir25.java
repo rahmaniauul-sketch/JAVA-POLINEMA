@@ -13,6 +13,5 @@ public class TugasParkir25 {
     } else {
         System.out.println("2000");
     }
-
     }
 }
