@@ -11,7 +11,6 @@ public class ContohVariabel25 {
         System.out.println("jeniskelamin: " + jenisKelamin);
         System.out.println("Umurku saat ini: " + _umurSayaSekarang);
         System.out.println(String.format("Saya beripk %s, dengan tinggi badan %s", ipk, tinggi));
-
     }
 }
   
