@@ -7,7 +7,7 @@ public class Triangle25 {
     Scanner sc = new Scanner(System.in);
     System.out.print("Masukkan nilai n : ");
     int n = sc.nextInt();
-    int i = 0;
+    int i = 1;
     while (i <= n) {
         System.out.print("[i =" +i + "] ");
         int j = 0;
@@ -15,6 +15,7 @@ public class Triangle25 {
             System.out.print("*");
             j++;
         }
+        System.out.println();
         i++;
     }
     sc.close();
