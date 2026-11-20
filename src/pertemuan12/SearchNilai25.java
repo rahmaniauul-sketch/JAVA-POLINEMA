@@ -1,21 +1,25 @@
 /*PARAMETER UNIK :
-Bagian A : key : 20 + (25%50) = 45
-Bagian B : 20 + (25 % 60) = 45
-B[0] = 45
-B[1] = 45 + 15 = 60
-B[2] = 45-8 = 37
-B[3] = 45 + 30 = 75
-B[4] = 45-20 = 25
-B[5] = 45 + 5 = 50*/
+key 20 + (25%50) = 45*/
 package pertemuan12;
+import java.util.Scanner;
 public class SearchNilai25 {
     public static void main(String[] args) {
-    int [] nilai = {45, 60, 37, 75, 25, 50};
-    int key = 45;
+    Scanner sc = new Scanner(System.in);
+    int jumlahelemen, elemen;
+    System.out.print("Masukkan jumlah elemen : ");
+    jumlahelemen = sc.nextInt();
+    int [] nilai = new int [jumlahelemen];
+    for (int i = 0; i < jumlahelemen; i++) {
+        System.out.print("Masukkan elemen " + i + ":");
+        elemen = sc.nextInt();
+        nilai [i] = elemen;
+    }
+    System.out.print("Masukkan key : ");
+    int key = sc.nextInt();
     boolean ditemukan = false;
-    for (int i = 0; i < nilai.length; i++) {
-        if (nilai[i] == key) {
-            System.out.println("Nilai " + key + " ditemukan pada indeks ke-" + i);
+    for (int j = 0; j < nilai.length; j++) {
+        if (nilai[j] == key) {
+            System.out.println("Nilai " + key + " ditemukan pada indeks ke-" + j);
             ditemukan = true;
             break;
         }
@@ -25,3 +29,4 @@ public class SearchNilai25 {
     }
     }
 }
+
