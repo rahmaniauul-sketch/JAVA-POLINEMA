@@ -1,6 +1,7 @@
 /*PARAMETER UNIK :
 key 20 + (25%50) = 45*/
 package pertemuan12;
+import  java.util.Arrays;
 import java.util.Scanner;
 public class SearchNilai25 {
     public static void main(String[] args) {
@@ -25,7 +26,7 @@ public class SearchNilai25 {
         }
     }
     if (!ditemukan) {
-        System.out.println("Nilai " + key + " tidak ditemukan.");
+        System.out.println("Nilai " + key + " tidak ditemukan. Silahkan masukkan nilai yang berada pada rentang " + Arrays.toString(nilai));
     }
     }
 }
