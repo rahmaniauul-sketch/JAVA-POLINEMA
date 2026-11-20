@@ -4,12 +4,16 @@ package pertemuan12;
 import java.util.Scanner;
 public class ArrayRataNilai25 {
     public static void main(String[] args) {
-        int [] nilaiMhs = new int[10];
-        Scanner input = new Scanner (System.in);
+    Scanner input = new Scanner (System.in);
+    int nilai;
+    System.out.print("Masukkan jumlah nilai mahasiswa : ");
+    nilai = input.nextInt();
+        int [] nilaiMhs = new int[nilai];
         int total = 0;
         double rata2;
         int lulus = 0;
         String predikat;
+        
             
         for (int i = 0; i < nilaiMhs.length; i++) {
             System.out.print("Masukkan nilai mahasiswa ke- " + (i + 1) + ": ");
@@ -21,9 +25,7 @@ public class ArrayRataNilai25 {
         for (int i = 1; i < nilaiMhs.length; i++) {
             if (nilaiMhs[i] > tertinggi) tertinggi = nilaiMhs[i]; {
             if (nilaiMhs[i] < terendah) terendah = nilaiMhs[i]; {
-            if (nilaiMhs[i] > 70) {
-                lulus++;
-            }
+            
             } 
             }
             
@@ -43,7 +45,6 @@ public class ArrayRataNilai25 {
         System.out.println("Nilai tertinggi: " + tertinggi);
         System.out.println("Nilai terendah: " + terendah);
         System.out.println("Predikat kelas: " +predikat);
-        System.out.println("Mahasiswa yg lulus : " + lulus);
 
         
     }
