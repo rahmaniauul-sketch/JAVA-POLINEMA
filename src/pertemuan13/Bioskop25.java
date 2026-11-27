@@ -1,4 +1,5 @@
 package pertemuan13;
+
 public class Bioskop25 {
     public static void main(String[] args) {
         String [][] penonton = new String[4][2];
@@ -18,10 +19,9 @@ public class Bioskop25 {
 
         System.out.println("Penonton pada baris ke-3: ");
 
-        for (int i = 0; i < penonton[2].length;i++) {
-        System.out.println(penonton[2][i]);
+        for (String i : penonton[2]) {
+            System.out.println(i);
         }
-        
 
 
 
